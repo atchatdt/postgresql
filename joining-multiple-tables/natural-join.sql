@@ -42,7 +42,6 @@ SELECT	* FROM products
 INNER JOIN categories USING (category_id);
 
 
--- Note: cẩn thận khi sử dụng natural join
 SELECT * 
 FROM city
 NATURAL JOIN country;
